@@ -37,6 +37,14 @@
 
 
 /* ALTERAR RESPONSIVIDADE */
+
+@media (max-width: 476px) {
+    .btncalc {
+        font-size: 20px;
+        min-width: 10px;
+    }
+}
+
 @media (max-width: 676px) {
     .btncalc {
         font-size: 40px;
@@ -46,7 +54,7 @@
 
 @media (max-width: 833px) {
     .btncalc {
-        font-size: 3rem;
+        font-size: 60px;
         min-width: 50px;
     }
 }
