@@ -1,0 +1,67 @@
+.btncalc {
+    font-size: 70px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10px;
+    min-width: 200px;
+    margin: 1px;
+
+}
+
+.btncalc:hover {
+    background-color: #997CC2;
+    cursor: pointer;
+}
+
+#clean {
+    background-color: rgb(235, 176, 81);
+}
+
+#clean:hover {
+    background-color: #997CC2;
+}
+
+
+
+#res {
+    justify-content: center;
+    margin: 40px 385px 40px 385px;
+    min-width: 200px;
+    min-height: 130px;
+    font-size: 100px;
+    color: #997CC2;
+    border: 2px solid #997CC2;
+    
+}
+
+
+
+/* ALTERAR RESPONSIVIDADE */
+@media (max-width: 676px) {
+    .btncalc {
+        font-size: 40px;
+        min-width: 20px;
+    }
+}
+
+@media (max-width: 833px) {
+    .btncalc {
+        font-size: 3rem;
+        min-width: 50px;
+    }
+}
+@media (max-width: 1153px) {
+    .btncalc {
+        font-size: 60px;
+        min-width: 80px;
+    }
+
+    #res { 
+        justify-content: center;
+        margin: 40px auto 40px auto;
+        min-width: 200px;
+        max-width: 200px;
+        min-height: 80px;
+        font-size: 60px;
+    }
+}
