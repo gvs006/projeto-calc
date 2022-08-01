@@ -38,17 +38,11 @@
 
 /* ALTERAR RESPONSIVIDADE */
 
+
 @media (max-width: 476px) {
     .btncalc {
-        font-size: 20px;
-        min-width: 10px;
-    }
-}
-
-@media (max-width: 676px) {
-    .btncalc {
-        font-size: 40px;
-        min-width: 20px;
+        font-size: 10px;
+        min-width: 5px;
     }
 }
 

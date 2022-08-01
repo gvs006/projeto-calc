@@ -41,6 +41,15 @@ footer {
     font-size: x-large;
 }
 
+@media (max-width: 476px) {
+    h1 {
+        font-size: medium;
+    }
+   main {
+    margin: 0px 0px 0px 0px;
+   }
+}
+
 @media (max-width: 676px) {
     h1 {
         font-size: larger;
